@@ -1,0 +1,9 @@
+<d:html>
+<aside id="{{ @props[0] }}-app-sidebar" class="{{ @props[3] }}" {{ @props[2]}}>
+{{ @props[1] }}
+</aside>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+</d:css>

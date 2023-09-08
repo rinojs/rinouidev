@@ -1,0 +1,10 @@
+<d:html>
+<div class="button-wrapper">
+    <button id="{{ @props[0] }}-button" class="button {{ @props[3] }}" {{ @props[2]}}>{{ @props[1] }}</button>
+    <div class="button-cover"></div>
+</div>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+</d:css>

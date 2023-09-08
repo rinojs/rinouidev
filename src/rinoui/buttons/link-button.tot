@@ -1,0 +1,10 @@
+<d:html>
+<div class="link-button-wrapper">
+    <a role="button" id="{{ @props[0] }}-link-button" class="link-button {{ @propse[3] }}" {{ @propse[2]}}>{{ @props[1] }}</a>
+    <div class="link-button-cover"></div>
+</div>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+</d:css>

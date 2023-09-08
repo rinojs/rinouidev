@@ -1,0 +1,9 @@
+<d:html>
+<header id="{{ @props[0] }}-app-header" class="{{ @props[3] }}" {{ @props[2]}}>
+{{ @props[1] }}
+</header>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+</d:css>

@@ -1,0 +1,12 @@
+{
+    "name": "rinouidev",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "rinojs": "^1.5.11",
+        "rinokit": "^0.0.2"
+    }
+}

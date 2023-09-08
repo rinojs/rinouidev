@@ -1,0 +1,14 @@
+<d:html>
+  <div class="menu-button-wrapper">
+    <a role="button" id="{{ @props[0] }}-menu-button" class="menu-button {{ @propse[2] }}" {{ @propse[1] }}>
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <div class="menu-button-cover"></div>
+  </div>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+</d:css>
