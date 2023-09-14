@@ -1,0 +1,15 @@
+<d:html>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+.app-footer
+{
+    position: absolute;
+    width: calc(100vw - 24px);
+    bottom: 0;
+    padding: 6px 12px;
+    background-color: #eee;
+    height: 26px;
+}
+</d:css>

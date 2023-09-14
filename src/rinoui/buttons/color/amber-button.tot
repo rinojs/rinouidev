@@ -1,0 +1,20 @@
+<d:html>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+.button.amber
+{
+    background-color: #FFC107;
+}
+
+.button.amber:hover
+{
+    background-color: #FFB300;
+}
+
+.button.amber:active
+{
+    background-color: #FFA000;
+}
+</d:css>

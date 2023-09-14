@@ -1,0 +1,10 @@
+<d:html>
+{{ @component, ./src/rinoui/buttons/button-style.tot }}
+{{ @component, ./src/rinoui/buttons/icon-button-style.tot }}
+{{ @component, ./src/rinoui/buttons/link-button-style.tot }}
+{{ @component, ./src/rinoui/buttons/menu-button-style.tot }}
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+</d:css>

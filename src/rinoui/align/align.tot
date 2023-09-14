@@ -1,0 +1,57 @@
+<d:css>
+.text-align-start {
+    text-align: start;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.text-align-justify-all {
+    text-align: justify-all;
+}
+
+.text-align-match-parent {
+    text-align: match-parent;
+}
+
+.vertical-align-baseline {
+    vertical-align: baseline;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.vertical-align-bottom {
+    vertical-align: bottom;
+}
+
+.vertical-align-sub {
+    vertical-align: sub;
+}
+
+.vertical-align-text-top {
+    vertical-align: text-top;
+}
+</d:css>

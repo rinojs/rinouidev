@@ -3,10 +3,10 @@
 <html>
     <head>
         {{ @preload, ./src/preloads/preload.tot }}
-        {{ @preload, ./src/rinoui/buttons/button-style.tot}}
-        {{ @preload, ./src/rinoui/buttons/link-button-style.tot}}
-        {{ @preload, ./src/rinoui/buttons/menu-button-style.tot}}
-        {{ @preload, ./src/rinoui/buttons/icon-button-style.tot}}
+        {{ @component, ./src/rinoui/buttons-style.tot }}
+        {{ @component, ./src/rinoui/buttons/color/amber-button.tot }}
+        {{ @component, ./src/rinoui/layout/app-footer-style.tot }}
+        {{ @preload, ./src/rinoui/grid/cols.tot}}
         {{ @preload, ./src/rinoui/layout/app-header-style.tot}}
         <script type="text/javascript" src="main.js"></script>
 
@@ -21,25 +21,27 @@
         <title>{{ @data.title }}</title>
     </head>
     <body>
-        {{ @component, ./src/rinoui/layout/app-header.tot,
-            (test),
-            (
-                {{ @component, ./src/rinoui/buttons/link-button.tot, (test1), (링크 버튼 테스트) }}
-                {{ @component, ./src/rinoui/buttons/button.tot, (test1), (버튼 테스트)}}
-                {{ @component, ./src/rinoui/buttons/menu-button.tot, (test1)}}
-            )
-        }}
-        {{ @component, ./src/rinoui/layout/app-sidebar.tot }}
+        <header class="app-header">
+            <span class="item">Rino UI</span>
+            <button id="button1" class="button">test1</button>
+            <button id="button2" class="button amber">test2</button>
+        </header>
         <main>
             <img id="mainImg" src="/rino256.png">
             <h1>
                 Fast learning, preprocessing, intuitive web framework
             </h1>
-                {{ @component, ./src/rinoui/buttons/link-button.tot, (test2), (링크 버튼 테스트) }}
-                {{ @component, ./src/rinoui/buttons/button.tot, (test2), (버튼 테스트)}}
-                {{ @component, ./src/rinoui/buttons/menu-button.tot, (test2)}}
-                {{ @component, ./src/rinoui/buttons/icon-button.tot, (test2), (i)}}
+
+                <div class="cols">
+                    <div class="col">
+                        a
+                    </div>
+                    <div class="col">
+                        b
+                    </div>
+                </div>
         </main>
+        
         {{ @component, ./src/components/footer.tot }}
     </body>
 </html>
@@ -61,10 +63,5 @@ img {
     margin: 0px auto;
     max-width: 256px;
     width: 100%;
-}
-
-.test-button 
-{
-    background-color: blue;
 }
 </d:css>

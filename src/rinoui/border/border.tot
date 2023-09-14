@@ -1,0 +1,41 @@
+<d:html>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+.bd-dotted {
+    border-style: dotted;
+}
+
+.bd-solid {
+    border-style: solid;
+}
+
+.bd-double {
+    border-style: double;
+}
+
+.bd-groove {
+    border-style: groove;
+}
+
+.bd-ridge {
+    border-style: ridge;
+}
+
+.bd-inset {
+    border-style: inset;
+}
+
+.bd-outset {
+    border-style: outset;
+}
+
+.bd-none {
+    border-style: none;
+}
+
+.bd-hidden {
+    border-style: hidden;
+}
+</d:css>

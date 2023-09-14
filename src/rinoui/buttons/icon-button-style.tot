@@ -14,81 +14,9 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    user-select: none;
     display: flex;
-}
-
-.icon-button span
-{
-    left: 50%;
-    display: block;
-    width: 16px;
-    height: 1px;
-    background-color: #333;
-    position: absolute;
-    transition: transform 0.3s, opacity 0.3s;
-    transform: translate(-50%, -50%);
-}
-
-.icon-button span:nth-child(1)
-{
-    top: calc(50% - 5px);
-}
-
-.icon-button span:nth-child(2)
-{
-    top: 50%;
-}
-
-.icon-button span:nth-child(3)
-{
-    top: calc(50% + 5px);
-}
-
-.icon-button.active span
-{
-    left: calc(50% - 2px);
-}
-
-.icon-button.active span:nth-child(1) {
-    transform: translateX(-5px) translateY(5px) rotate(45deg);
-}
-
-.icon-button.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.icon-button.active span:nth-child(3) {
-    transform: translateX(-5px) translateY(-5px) rotate(-45deg);
-}
-
-.icon-button-cover
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    z-index: 1000000000;
+    color: red;
     transition: background-color 0.3s ease, color 0.3s ease;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.icon-button-cover:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.icon-button-cover:active {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.icon-button-wrapper
-{
-    position: relative;
-    display: inline-block;
-    height: 40px;
-    vertical-align: top;
 }
 </d:css>

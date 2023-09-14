@@ -1,5 +1,6 @@
 <d:html>
-<footer>
+<footer class="app-footer">
+test footer
 </footer>
 </d:html>
 <d:js>
